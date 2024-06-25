@@ -782,6 +782,8 @@ footer .animate.scroll{
     }
 }
 @media(max-width:371px){
+   
+
     .home{
         justify-content: center;
     }
@@ -799,7 +801,13 @@ footer .animate.scroll{
     }
 
 }
-
+@media (max-width:380px){
+   
+    .home-sci {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 @keyframes homeBgText{
     0%,10%,100%{
         background-position:  -33rem 0;
