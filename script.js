@@ -38,8 +38,8 @@ window.onscroll=()=>{
 
 function downloadResume() {
     const link = document.createElement('a');
-    link.href = './ShivamTiwariCv.pdf' // Ensure this path matches the location of your resume file
-    link.download = 'resume.pdf'; // The name of the file to be downloaded
+    link.href = './ShivamTiwariCv.pdf' 
+    link.download = 'resume.pdf'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
