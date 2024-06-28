@@ -831,6 +831,15 @@ footer .animate.scroll{
     }
     
  }
+ @media (max-height: 630px) {
+    .home-sci a{
+        width: 25px;
+        height: 25px;
+    }
+    .home-sci{
+        width: 100px;
+    }
+}
 
 @keyframes homeBgText{
     0%,10%,100%{
