@@ -840,7 +840,7 @@ footer .animate.scroll{
         width: 130px;
     }
 }
-@media (max-height: 575px) {
+@media (max-height: 660px) {
     .home-sci a{
         display: none;
     }
