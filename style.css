@@ -200,7 +200,7 @@ width: 100%;
 }
 .home-sci{
     position: absolute;
-    bottom: 4rem;
+    bottom: 7px;
     display: flex;
     justify-content: space-between;
     width: 170px;
