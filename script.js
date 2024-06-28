@@ -94,14 +94,8 @@ function sendEmail() {
 
     emailjs.send('service_kzltckm', 'template_g932cfv', templateParams)
         .then(function(response) {
-           console.log('SUCCESS!', response.status, response.text);
-           alert("Thank You for Contacting..");
            document.getElementById("contactForm").reset();
-         
-           
-        }, function(error) {
-           console.log('FAILED...', error);
-           alert("Email sending failed.");
+           alert("Thank You for Contacting..");
         });
 
        
